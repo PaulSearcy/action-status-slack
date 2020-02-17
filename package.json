@@ -1,0 +1,24 @@
+{
+  "name": "action-status-slack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-nsda": "github:NationalSpeechandDebateAssociation/eslint-config-nsda",
+    "eslint-plugin-import": "^2.20.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-nsda"
+    ]
+  }
+}

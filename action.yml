@@ -1,0 +1,6 @@
+name: 'Status Slack'
+description: 'This action will send a notification to Slack'
+author: 'PaulSearcy'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
