@@ -1,5 +1,7 @@
 FROM node:12.16.0
 
+WORKDIR /src/github.com/
+
 COPY . .
 
 RUN npm i
