@@ -4,6 +4,4 @@ COPY . .
 
 RUN npm i
 
-RUN printenv
-
-RUN node index.js
+ENTRYPOINT ["/entrypoint.sh"]
